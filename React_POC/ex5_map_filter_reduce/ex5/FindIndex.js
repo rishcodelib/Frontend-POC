@@ -1,0 +1,1 @@
+//findindex: find the index of the first item that matches.
