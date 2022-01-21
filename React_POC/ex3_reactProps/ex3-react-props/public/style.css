@@ -1,3 +1,30 @@
-#root{
+#root {
   background-color: antiquewhite;
+}
+
+
+.card {
+  margin: auto 10px;
+  float: left;
+  padding: 10px;
+  background-color: antiquewhite;
+  border-radius: 16px;
+}
+
+.card img {
+  width: 100px;
+}
+
+.card h2 {
+  font-size: medium;
+  color: red;
+  font-weight: 200;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 6px;
+  text-align: center;
+}
+
+.card p {
+  text-align: left;
+  font-weight: 500;
 }
