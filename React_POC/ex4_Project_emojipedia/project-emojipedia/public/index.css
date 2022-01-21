@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.emoji {
+  color: red;
+}
+
+.term {
+  text-align: center;
+  width: 50%;
+  background-color: antiquewhite;
+  padding: 10px 5px;
+  margin: 25px auto;
+}
