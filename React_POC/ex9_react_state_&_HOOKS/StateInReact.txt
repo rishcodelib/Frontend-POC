@@ -1,0 +1,19 @@
+State in React.
+
+UI = f(state)
+// User interface change the state of a variable.
+
+
+// Declarative programing:
+
+--  setting up the features inside the <p> element and puting the js using {}  braces;
+
+
+// Imperative Programing:
+//eg:
+--Imperatively Telling one elememnt by document.getElementbyId("abcd")
+
+
+//HOOKS
+
+We don't need to re-render the react DOM
