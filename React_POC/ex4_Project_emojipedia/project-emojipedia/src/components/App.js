@@ -20,7 +20,17 @@ function app() {
       </h1>
       {console.log(emojipedia)}
       <dl className="dictionary">
-        {emojipedia.map(createEntry)}
+        {/* {emojipedia.map(createEntry)} */}
+
+        {/*
+         //! ARROW FUNCTION CONCEPT:
+         */}
+        {
+          emojipedia.map(emojiTerm => (
+            <Entry key={emojiTerm.id} emoji={emojiTerm.emoji}
+              name={emojiTerm.name} description={emojiTerm.meaning}
+            />))
+        }
 
       </dl>
 
