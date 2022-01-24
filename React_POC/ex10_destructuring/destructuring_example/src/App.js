@@ -16,8 +16,14 @@ console.log(dog);
 
 
 const { name, sound } = cat;
-
 console.log(name);
+// to change property names or to provide alternative names from object de-structuring
+
+const { name: CatName, sound: CatSound } = cat;
+console.log(CatName);
+console.log(CatSound);
+
+
 
 function App() {
 
