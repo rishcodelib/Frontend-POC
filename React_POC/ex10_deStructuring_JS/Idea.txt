@@ -1,1 +1,0 @@
-Destucturing Nested array!
